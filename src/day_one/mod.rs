@@ -1,5 +1,6 @@
 use std::{io::{self, BufRead}, collections::HashMap};
 
+/* cargo run < day_one/day_one.in */
 pub fn solve() {
     let mut lines = io::stdin().lock().lines();
 
